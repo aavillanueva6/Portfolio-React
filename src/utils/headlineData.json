@@ -1,0 +1,13 @@
+{
+  "firstName": "Alejandro",
+  "lastName": "Villanueva",
+  "headlineText": [
+    "I'm a Full-Stack Web Developer.",
+    "I am excited to use my engineering background to find creative solutions to development problems."
+  ],
+  "buttons": [
+    { "text": "Projects", "link": "#Projects" },
+    { "text": "About", "link": "#AboutMe" },
+    { "text": "Contact", "link": "#ContactMe" }
+  ]
+}

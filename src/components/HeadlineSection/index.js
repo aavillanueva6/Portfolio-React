@@ -1,5 +1,7 @@
 import React from 'react';
 
+const headlineData = require('../../utils/headlineData.json');
+
 const HeadlineSection = () => {
   return (
     <>
@@ -11,24 +13,24 @@ const HeadlineSection = () => {
               <div className="col-8">
                 <div className="row align-items-end">
                   <h1 className="display-5 fw-bold fontSC text-light">
-                    Alejandro
+                    {headlineData.firstName}
                   </h1>
                 </div>
                 <div className="row align-items-end">
                   <h1 className="display-5 fw-bold fontSC text-light mt-n4">
-                    Villanueva
+                    {headlineData.lastName}
                   </h1>
                 </div>
                 <p className="col-md-8 fs-4 text-secondary">
-                  I'm a Full-Stack Web Developer. <br />I am excited to use my
-                  engineering background to find creative solutions to
-                  development problems.
+                  {headlineData.headlineText[0]}
+                  <br />
+                  {headlineData.headlineText[1]}
                 </p>
               </div>
               <div className="col-4">
                 <img
                   loading="eager"
-                  src="./assets/images/logo/AV_Logo_Light.svg"
+                  src="../../assets/images/logo/AV_Logo_Light.svg"
                   alt="AV logo"
                   width="140"
                   height="140"
@@ -44,28 +46,18 @@ const HeadlineSection = () => {
                 role="group"
                 aria-label="Basic outlined example"
               >
-                <a
-                  href="#Projects"
-                  role="button"
-                  className="btn btn-outline-light col-auto"
-                >
-                  Projects
-                </a>
-
-                <a
-                  href="#AboutMe"
-                  role="button"
-                  className="btn btn-outline-light col-auto"
-                >
-                  About
-                </a>
-                <a
-                  href="#ContactMe"
-                  role="button"
-                  className="btn btn-outline-light col-auto"
-                >
-                  Contact
-                </a>
+                {headlineData.buttons.map((button, i) => {
+                  return (
+                    <a
+                      key={`headline-section-button-${i}`}
+                      href={button.link}
+                      role="button"
+                      className="btn btn-outline-light col-auto"
+                    >
+                      {button.text}
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
