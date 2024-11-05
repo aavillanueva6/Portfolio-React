@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <>
       <div>FOOTER START</div>
-      <footer class="container">
-        <div class="row justify-content-center">
-          <div class="col-auto">
+      <footer className="container">
+        <div className="row justify-content-center">
+          <div className="col-auto">
             &copy; 2022 Alejandro Villanueva
-            <span class="visible invisible"></span>
+            <span className="visible invisible"></span>
           </div>
         </div>
       </footer>
