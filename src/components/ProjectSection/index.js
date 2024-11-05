@@ -1,13 +1,10 @@
 import React from 'react';
+import MainProjCard from '../MainProjCard';
 
 const projectData = require('../../utils/projectData.json');
 
-console.log(projectData);
 const leadProj = projectData[0];
-console.log(leadProj);
 const SecondaryProjectsData = projectData.slice(1);
-console.log(leadProj);
-console.log(projectData);
 console.log(SecondaryProjectsData);
 
 const ProjectSection = () => {
@@ -21,78 +18,8 @@ const ProjectSection = () => {
             Projects:
           </h1>
         </div>
-        <div className="row">
-          <div className="card my-2 bg-dark text-center text-light">
-            <div className="card-header fs-1">WETF Radio</div>
-            <div className="card-body">
-              <h5 className="card-title fs-5">Non-profit Jazz Radio Station</h5>
+        <MainProjCard project={leadProj} />
 
-              <img
-                loading="lazy"
-                src="https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png"
-                className="card-img-bottom projCardImg"
-                alt="..."
-              />
-              <p className="card-text fst-italic fs-6">
-                Note: This app is hosted on a free onrender.com tier. Please
-                allow a few moments to spin up.
-              </p>
-              <a
-                href="https://react-radio.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Deployed App
-              </a>
-              <a
-                href="https://github.com/aavillanueva6/ReactRadio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
-            </div>
-            <div className="card-footer text-light">
-              <h5 className="card-title text-center">Tech Stack</h5>
-              <div className="row">
-                <div className="col-6">
-                  <div className="h-100 row justify-content-evenly">
-                    <div
-                      className="card bg-transparent border-light mb-3"
-                      style={{ maxWidth: '18rem' }}
-                    >
-                      <div className="card-header">Front End</div>
-                      <div className="card-body">
-                        <i className="devicon-react-original codeIcon"></i>
-                        <i className="devicon-javascript-plain codeIcon"></i>
-                        <i className="devicon-bootstrap-plain codeIcon"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="h-100 row justify-content-evenly">
-                    <div
-                      className="card bg-transparent border-light mb-3"
-                      style={{ maxWidth: '18rem' }}
-                    >
-                      <div className="card-header">Back End</div>
-                      <div className="card-body">
-                        <i className="devicon-mongodb-plain codeIcon"></i>
-                        <i className="devicon-graphql-plain codeIcon"></i>
-                        <i className="devicon-nodejs-plain codeIcon"></i>
-                        <i className="devicon-express-original codeIcon"></i>
-                        <i className="devicon-amazonwebservices-original codeIcon"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="row">
           <div className="card my-2 pb-2 bg-dark text-center text-light">
             <div className="card-header fs-1">myrecipes</div>
