@@ -3,7 +3,6 @@ import React from 'react';
 const LinkButton = ({ linkData }) => {
   return (
     <>
-      <div>LINK BUTTON START</div>
       <a
         href={linkData.linkURL}
         target="_blank"
@@ -12,7 +11,6 @@ const LinkButton = ({ linkData }) => {
       >
         {linkData.linkText}
       </a>
-      <div>LINK BUTTON END</div>
     </>
   );
 };
