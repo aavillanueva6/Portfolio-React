@@ -1,5 +1,15 @@
 import React from 'react';
 
+const projectData = require('../../utils/projectData.json');
+
+console.log(projectData);
+const leadProj = projectData[0];
+console.log(leadProj);
+const SecondaryProjectsData = projectData.slice(1);
+console.log(leadProj);
+console.log(projectData);
+console.log(SecondaryProjectsData);
+
 const ProjectSection = () => {
   return (
     <>
@@ -395,9 +405,9 @@ const ProjectSection = () => {
                   height="100%"
                   src="https://www.youtube.com/embed/NtHvQKAxLkw"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
