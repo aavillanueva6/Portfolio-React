@@ -1,0 +1,260 @@
+[
+  {
+    "name": "WETF Radio",
+    "shortDescription": "Non-profit Jazz Radio Station",
+    "image": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png",
+    "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
+    "projectLinks": [
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://react-radio.onrender.com/"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/ReactRadio"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-react-original codeIcon",
+          "devicon-javascript-plain codeIcon",
+          "devicon-bootstrap-plain codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": [
+          "devicon-mongodb-plain codeIcon",
+          "devicon-graphql-plain codeIcon",
+          "devicon-nodejs-plain codeIcon",
+          "devicon-express-original codeIcon",
+          "devicon-amazonwebservices-original codeIcon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "myrecipes",
+    "shortDescription": "Social Media for Foodies",
+    "image": "",
+    "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
+    "projectLinks": [
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://aav-myrecipes.onrender.com/"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/myrecipes"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-react-original codeIcon",
+          "devicon-javascript-plain codeIcon",
+          "devicon-css3-plain codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": [
+          "devicon-mongodb-plain codeIcon",
+          "devicon-graphql-plain codeIcon",
+          "devicon-nodejs-plain codeIcon",
+          "devicon-express-original codeIcon",
+          "devicon-amazonwebservices-original codeIcon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "move",
+    "shortDescription": "Outdoor activity forum",
+    "image": "",
+    "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
+    "projectLinks": [
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://uwb-move.herokuapp.com/"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/Move"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-bootstrap-plain codeIcon",
+          "devicon-javascript-plain codeIcon",
+          "devicon-handlebars-plain codeIcon",
+          "devicon-css3-plain codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": [
+          "devicon-mysql-plain codeIcon",
+          "devicon-sequelize-plain codeIcon",
+          "devicon-nodejs-plain codeIcon",
+          "devicon-express-original codeIcon",
+          "devicon-socketio-original codeIcon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Technology Blog",
+    "shortDescription": "A blog for users to discuss the latest in the tech world",
+    "image": "",
+    "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
+    "projectLinks": [
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://aav-tech-blog.herokuapp.com/"
+      },
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://github.com/aavillanueva6/TechBlog"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-bulma-plain codeIcon",
+          "devicon-javascript-plain codeIcon",
+          "devicon-handlebars-plain codeIcon",
+          "devicon-css3-plain codeIcon",
+          "devicon-sass-original codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": [
+          "devicon-mysql-plain codeIcon",
+          "devicon-sequelize-plain codeIcon",
+          "devicon-nodejs-plain codeIcon",
+          "devicon-express-original codeIcon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "e-Commerce Back End",
+    "shortDescription": "Application demonstrates an e-commerce back end with a user's ability to manipulate data on a mySQL server",
+    "image": "",
+    "disclaimer": "",
+    "projectLinks": [
+      {
+        "linkText": "Video Demo",
+        "linkURL": "https://www.youtube.com/watch?v=NtHvQKAxLkw"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/ECommerceBackEnd"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": []
+      },
+      {
+        "text": "Back End",
+        "icons": [
+          "devicon-mysql-plain codeIcon",
+          "devicon-sequelize-plain codeIcon",
+          "devicon-nodejs-plain codeIcon",
+          "devicon-express-original codeIcon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "National Park Service Hike Search",
+    "shortDescription": "Tool to search the NPS for hiking activities at your favorite park",
+    "image": "",
+    "disclaimer": "",
+    "projectLinks": [
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://aavillanueva6.github.io/NPSHikeSearchTool/"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/NPSHikeSearchTool"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-javascript-plain codeIcon",
+          "devicon-html5-plain codeIcon",
+          "devicon-css3-plain codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": []
+      }
+    ]
+  },
+  {
+    "name": "Weather Dashboard",
+    "shortDescription": "Find the five day forecast for your favorite city",
+    "image": "",
+    "disclaimer": "",
+    "projectLinks": [
+      {
+        "linkText": "Deployed App",
+        "linkURL": "https://aavillanueva6.github.io/WeatherDashboard/"
+      },
+      {
+        "linkText": "Github Repo",
+        "linkURL": "https://github.com/aavillanueva6/WeatherDashboard"
+      }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": [
+          "devicon-bootstrap-plain codeIcon",
+          "devicon-javascript-plain codeIcon",
+          "devicon-html5-plain codeIcon",
+          "devicon-css3-plain codeIcon"
+        ]
+      },
+      {
+        "text": "Back End",
+        "icons": []
+      }
+    ]
+  },
+  {
+    "name": "",
+    "shortDescription": "",
+    "image": "",
+    "disclaimer": "",
+    "projectLinks": [
+      { "linkText": "", "linkURL": "" },
+      { "linkText": "", "linkURL": "" }
+    ],
+    "techStack": [
+      {
+        "text": "Front End",
+        "icons": []
+      },
+      {
+        "text": "Back End",
+        "icons": []
+      }
+    ]
+  }
+]
