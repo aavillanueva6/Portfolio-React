@@ -3,7 +3,6 @@ import React from 'react';
 const Header = () => {
   return (
     <>
-      <div>HEADER START</div>
       <header className="sticky-top bg-dark">
         <nav className="navbar navbar-light navbar-expand-lg bg-success invisible customFadeIn">
           <div className="container-fluid justify-content-between">
@@ -51,7 +50,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-      <div>HEADER END</div>
     </>
   );
 };

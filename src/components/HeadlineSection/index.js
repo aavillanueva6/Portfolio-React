@@ -5,7 +5,6 @@ const headlineData = require('../../utils/headlineData.json');
 const HeadlineSection = () => {
   return (
     <>
-      <div>HEADLINE SECTION START</div>
       <div className="container-fluid vh-100 py-5 bg-dark align-content-center">
         <div className="row align-content-center h-100">
           <div className="container-fluid">
@@ -63,7 +62,6 @@ const HeadlineSection = () => {
           </div>
         </div>
       </div>
-      <div>HEADLINE SECTION END</div>
     </>
   );
 };
