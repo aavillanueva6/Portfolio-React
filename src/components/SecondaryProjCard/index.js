@@ -1,9 +1,9 @@
 import React from 'react';
+import { Fragment } from 'react';
 import LinkButton from '../LinkButton';
 import TechStackSubCard from '../TechStackSubCard';
 
 const SecondaryProjCard = ({ project, projID }) => {
-  console.log(project, projID);
   return (
     <>
       <div className="row">
@@ -43,7 +43,9 @@ const SecondaryProjCard = ({ project, projID }) => {
                           techStackData={techStackData}
                         />
                       ) : (
-                        <></>
+                        <Fragment key={`null-proj-${projID}-TS-${i}`}>
+                          {/*this ternary allows me to leave the template in the project data json and still not render anything*/}
+                        </Fragment>
                       );
                     })}
                   </div>

@@ -1,12 +1,14 @@
 import React from 'react';
+import { Fragment } from 'react';
 import MainProjCard from '../MainProjCard';
 import SecondaryProjCard from '../SecondaryProjCard';
+import '../../utils/script.js';
 
 const projectData = require('../../utils/projectData.json');
 
 const leadProj = projectData[0];
 const secondaryProjectsData = projectData.slice(1);
-console.log(secondaryProjectsData);
+// console.log(secondaryProjectsData);
 
 const ProjectSection = () => {
   return (
@@ -28,9 +30,9 @@ const ProjectSection = () => {
               projID={i + 1}
             />
           ) : (
-            <>
+            <Fragment key={`null-Secondary-project-${i + 1}`}>
               {/*this ternary allows me to leave the template in the project data json and still not render anything*/}
-            </>
+            </Fragment>
           );
         })}
       </div>
