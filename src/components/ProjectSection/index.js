@@ -12,8 +12,6 @@ const secondaryProjectsData = projectData.slice(1);
 const ProjectSection = () => {
   return (
     <>
-      <div>PROJECT SECTION START</div>
-
       <div id="Projects" className="container">
         <div className="row">
           <h1 className="display-5 fw-bold fontScript-3 text-primary">
@@ -35,7 +33,6 @@ const ProjectSection = () => {
           );
         })}
       </div>
-      <div>PROJECT SECTION END</div>
     </>
   );
 };
