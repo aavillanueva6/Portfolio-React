@@ -1,0 +1,89 @@
+//adds function to click event within the projectBucket
+// document
+//   .querySelector('#previousProjects')
+//   .addEventListener('click', function (event) {
+//     let selectedElement = event.target;
+
+//     // if statement ensures that there is a div element in the click's path to the root of the DOM.  If a div exists, it uses the data-link attribute to open the selected link in a new tab.
+//     if (selectedElement.closest('div')) {
+//       window.open(
+//         `${selectedElement.closest('div').getAttribute('data-link')}`,
+//         '_blank'
+//       );
+//     }
+//   });
+
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('scroll', handleScroll);
+});
+function handleScroll() {
+  const fadeIn = document.querySelectorAll('.customFadeIn');
+  const fadeOut = document.querySelectorAll('.customFadeOut');
+  console.log(fadeIn);
+  console.log(fadeOut);
+  if (fadeIn && fadeOut) {
+    console.log(1);
+    if (
+      document.body.scrollTop > 65 ||
+      document.documentElement.scrollTop > 65
+    ) {
+      for (const el of fadeIn) {
+        el.classList.remove('invisible', 'fadeOutEffect');
+        el.classList.add('fadeInEffect');
+      }
+      for (const el of fadeOut) {
+        el.classList.add('invisible');
+        el.classList.add('fadeOutEffect');
+        el.classList.remove('fadeInEffect');
+      }
+    } else {
+      for (const el of fadeIn) {
+        el.classList.add('invisible');
+        el.classList.add('fadeOutEffect');
+        el.classList.remove('fadeInEffect');
+      }
+      for (const el of fadeOut) {
+        el.classList.remove('invisible', 'fadeOutEffect');
+        el.classList.add('fadeInEffect');
+      }
+    }
+  }
+}
+/*
+// add HTTP request for contact form submission
+const contFormSubmitBtn = document.getElementById('contFormSubmitBtn');
+contFormSubmitBtn.addEventListener('click', function () {
+  // Get user input from form
+  let contFormName = document.getElementById('floatingName').value;
+  let contFormEmail = document.getElementById('floatingInput').value;
+  let contFormMessage = document.getElementById('contactFormTextArea').value;
+
+  // check that form is complete
+  if (contFormName && contFormEmail && contFormMessage) {
+    // format user form input into JSON
+    let formData = new FormData();
+    formData.append('name', contFormName);
+    formData.append('email', contFormEmail);
+    formData.append('message', contFormMessage);
+    // HTTP request to getform.io for the form
+    fetch('https://getform.io/f/d8174328-3f07-4910-abbf-03c54df2e0e4', {
+      method: 'POST',
+      body: formData,
+      headers: {
+        Accept: 'application/json',
+      },
+    })
+      .then((response) => console.log(response))
+      .catch((error) => console.log(error));
+
+    // reset form values
+    document.getElementById('floatingName').value = '';
+    document.getElementById('floatingInput').value = '';
+    document.getElementById('contactFormTextArea').value = '';
+    // disable the submit button after successful form submission
+    contFormSubmitBtn.disabled = true;
+    contFormSubmitBtn.textContent = 'Thank you for reaching out';
+  }
+});
+*/

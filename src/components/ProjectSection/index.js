@@ -2,7 +2,6 @@ import React from 'react';
 import { Fragment } from 'react';
 import MainProjCard from '../MainProjCard';
 import SecondaryProjCard from '../SecondaryProjCard';
-import '../../utils/script.js';
 
 const projectData = require('../../utils/projectData.json');
 
