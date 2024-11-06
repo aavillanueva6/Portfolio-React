@@ -5,8 +5,6 @@ import TechStackSubCard from '../TechStackSubCard';
 const MainProjCard = ({ project }) => {
   return (
     <>
-      <hr></hr>
-      <div>MAIN PROJECT CARD START</div>
       <div className="row">
         <div className="card my-2 bg-dark text-center text-light">
           <div className="card-header fs-1">{project.name}</div>
@@ -41,8 +39,6 @@ const MainProjCard = ({ project }) => {
           </div>
         </div>
       </div>
-      <div>MAIN PROJECT CARD END</div>
-      <hr></hr>
     </>
   );
 };
