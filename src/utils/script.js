@@ -20,10 +20,7 @@ window.addEventListener('DOMContentLoaded', function () {
 function handleScroll() {
   const fadeIn = document.querySelectorAll('.customFadeIn');
   const fadeOut = document.querySelectorAll('.customFadeOut');
-  console.log(fadeIn);
-  console.log(fadeOut);
   if (fadeIn && fadeOut) {
-    console.log(1);
     if (
       document.body.scrollTop > 65 ||
       document.documentElement.scrollTop > 65
