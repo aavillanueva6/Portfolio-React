@@ -1,0 +1,61 @@
+{
+  "text": [
+    "I'm a Full-Stack Developer with a background in Chemical Engineering. I have always been interested in technology, and decided to leverage my engineering background in a new way to complete a Full-Stack Web Development Boot Camp through the University of Washington.",
+    "When I am not working, you can catch me camping, hiking, or cycling."
+  ],
+  "buttons": [
+    {
+      "text": "Github",
+      "logo": "devicon-github-original codeIcon",
+      "link": "https://github.com/aavillanueva6/"
+    },
+    {
+      "text": "linkedIn",
+      "logo": "devicon-linkedin-plain codeIcon",
+      "link": "https://www.linkedin.com/in/alejandro-a-villanueva/"
+    },
+    {
+      "text": "Resume",
+      "logo": "fa-regular fa-file codeIcon",
+      "link": "./assets/files/VillanuevaAlejandroResume.pdf"
+    }
+  ],
+  "techStack": [
+    {
+      "text": "Front End",
+      "icons": [
+        "devicon-javascript-plain codeIcon mx-1 my-1",
+        "devicon-css3-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-html5-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-react-original-wordmark codeIcon",
+        "devicon-bootstrap-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-bulma-plain codeIcon mx-1 my-1",
+        "devicon-handlebars-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-sass-original codeIcon mx-1 my-1"
+      ]
+    },
+    {
+      "text": "Back End",
+      "icons": [
+        "devicon-express-original-wordmark codeIcon mx-1 my-1",
+        "devicon-nodejs-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-mysql-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-sequelize-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-mongodb-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-amazonwebservices-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-socketio-original-wordmark codeIcon mx-1 my-1"
+      ]
+    },
+    {
+      "text": "Tools",
+      "icons": [
+        "devicon-bash-plain codeIcon mx-1 my-1",
+        "devicon-git-plain-wordmark codeIcon mx-1 my-1",
+        "devicon-heroku-original-wordmark codeIcon mx-1 my-1",
+        "devicon-jest-plain codeIcon mx-1 my-1",
+        "devicon-npm-original-wordmark codeIcon mx-1 my-1",
+        "devicon-vscode-plain-wordmark codeIcon mx-1 my-1"
+      ]
+    }
+  ]
+}
