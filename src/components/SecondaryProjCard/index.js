@@ -35,7 +35,7 @@ const SecondaryProjCard = ({ project, projID }) => {
 
                 <div className="card-footer text-light">
                   <h5 className="card-title text-center">Tech Stack</h5>
-                  <div className="row">
+                  <div className="row justify-content-evenly">
                     {project.techStack.map((techStackData, i) => {
                       return techStackData.icons[0] ? (
                         <TechStackSubCard
