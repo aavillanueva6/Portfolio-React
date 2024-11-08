@@ -3,7 +3,7 @@
     "name": "WETF Radio",
     "shortDescription": "Non-profit Jazz Radio Station",
     "image": {
-      "src": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/WETFBannerLightsCity.png",
       "alt": "WETF in lighted letters in front of a night time cityscape"
     },
     "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
@@ -42,7 +42,7 @@
     "name": "myrecipes",
     "shortDescription": "Social Media for Foodies",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/myrecipes.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/myrecipes.png",
       "alt": "myrecipes home page example"
     },
     "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
@@ -81,7 +81,7 @@
     "name": "move",
     "shortDescription": "Outdoor activity forum",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/move_cropped.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/move_cropped.png",
       "alt": "move demo homepage"
     },
     "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
@@ -121,7 +121,7 @@
     "name": "Technology Blog",
     "shortDescription": "A blog for users to discuss the latest in the tech world",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/techBlog.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/techBlog.png",
       "alt": "tech blog homepage demo"
     },
     "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
@@ -161,7 +161,7 @@
     "name": "e-Commerce Back End",
     "shortDescription": "Application demonstrates an e-commerce back end with a user's ability to manipulate data on a mySQL server",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/eCommerceBEDemo.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/eCommerceBEDemo.png",
       "alt": "screenshot of video demo of app"
     },
     "disclaimer": "",
@@ -195,7 +195,7 @@
     "name": "National Park Service Hike Search",
     "shortDescription": "Tool to search the NPS for hiking activities at your favorite park",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/NPSHikeSearchTool.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/NPSHikeSearchTool.png",
       "alt": "NPS Hike Search homepage demo"
     },
     "disclaimer": "",
@@ -228,7 +228,7 @@
     "name": "Weather Dashboard",
     "shortDescription": "Find the five day forecast for your favorite city",
     "image": {
-      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/weatherDashboard.png",
+      "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/weatherDashboard.png",
       "alt": "Weather Dashboard app homepage demo"
     },
     "disclaimer": "",

@@ -17,7 +17,7 @@
     {
       "text": "Resume",
       "logo": "fa-regular fa-file codeIcon",
-      "link": "../../assets/resume/alejandro-villanueva-resume-2024.pdf"
+      "link": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/resume/alejandro-villanueva-resume-2024.pdf"
     }
   ],
   "techStack": [
