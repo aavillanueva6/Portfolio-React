@@ -9,7 +9,7 @@ const Header = () => {
             <a className="navbar-brand" href="#">
               <img
                 loading="eager"
-                src="./assets/images/logo/AV_Logo.svg"
+                src="https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolioImages/AV_Logo.svg"
                 alt="AV logo"
                 width="40"
                 height="40"
