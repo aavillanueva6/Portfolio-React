@@ -33,7 +33,7 @@ const HeadlineSection = () => {
                   alt="AV logo"
                   width="140"
                   height="140"
-                  className="d-block customFadeOut"
+                  className="d-block customFadeOut fadeInEffect"
                   id="AVLogo"
                 />
               </div>
@@ -41,7 +41,7 @@ const HeadlineSection = () => {
 
             <div className="container-fluid">
               <div
-                className="row justify-content-evenly customFadeOut"
+                className="row justify-content-evenly customFadeOut fadeInEffect"
                 role="group"
                 aria-label="Basic outlined example"
               >
