@@ -13,7 +13,7 @@ const SecondaryProjCard = ({ project, projID }) => {
             <div className="col-md-6">
               <img
                 loading="lazy"
-                src={project.image.url}
+                src={project.image.src}
                 className="img-fluid rounded-start projCardImg"
                 alt={project.image.alt}
               />

@@ -3,7 +3,7 @@
     "name": "WETF Radio",
     "shortDescription": "Non-profit Jazz Radio Station",
     "image": {
-      "url": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png",
+      "src": "https://aav-react-radio.s3.us-west-2.amazonaws.com/WETFBannerLightsCity.png",
       "alt": "WETF in lighted letters in front of a night time cityscape"
     },
     "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
@@ -42,8 +42,8 @@
     "name": "myrecipes",
     "shortDescription": "Social Media for Foodies",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/myrecipes.png",
+      "alt": "myrecipes home page example"
     },
     "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
     "projectLinks": [
@@ -81,8 +81,8 @@
     "name": "move",
     "shortDescription": "Outdoor activity forum",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/move_cropped.png",
+      "alt": "move demo homepage"
     },
     "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
     "projectLinks": [
@@ -121,8 +121,8 @@
     "name": "Technology Blog",
     "shortDescription": "A blog for users to discuss the latest in the tech world",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/techBlog.png",
+      "alt": "tech blog homepage demo"
     },
     "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
     "projectLinks": [
@@ -161,8 +161,8 @@
     "name": "e-Commerce Back End",
     "shortDescription": "Application demonstrates an e-commerce back end with a user's ability to manipulate data on a mySQL server",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/eCommerceBEDemo.png",
+      "alt": "screenshot of video demo of app"
     },
     "disclaimer": "",
     "projectLinks": [
@@ -195,8 +195,8 @@
     "name": "National Park Service Hike Search",
     "shortDescription": "Tool to search the NPS for hiking activities at your favorite park",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/NPSHikeSearchTool.png",
+      "alt": "NPS Hike Search homepage demo"
     },
     "disclaimer": "",
     "projectLinks": [
@@ -228,8 +228,8 @@
     "name": "Weather Dashboard",
     "shortDescription": "Find the five day forecast for your favorite city",
     "image": {
-      "url": "",
-      "alt": ""
+      "src": "../../assets/images/projects/weatherDashboard.png",
+      "alt": "Weather Dashboard app homepage demo"
     },
     "disclaimer": "",
     "projectLinks": [
@@ -262,7 +262,7 @@
     "name": "",
     "shortDescription": "",
     "image": {
-      "url": "",
+      "src": "",
       "alt": ""
     },
     "disclaimer": "",

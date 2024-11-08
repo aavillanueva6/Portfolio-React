@@ -13,7 +13,7 @@ const MainProjCard = ({ project }) => {
 
             <img
               loading="lazy"
-              src={project.image.url}
+              src={project.image.src}
               className="card-img-bottom projCardImg"
               alt={project.image.alt}
             />
