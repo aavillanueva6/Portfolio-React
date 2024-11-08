@@ -9,7 +9,7 @@ const HeadlineSection = () => {
         <div className="row align-content-center h-100">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-8">
+              <div className="col-8 fadeInEffect">
                 <div className="row align-items-end">
                   <h1 className="display-5 fw-bold fontSC text-light">
                     {headlineData.firstName}
