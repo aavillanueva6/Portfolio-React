@@ -12,6 +12,6 @@ myrecipes, Move, and the NPS Hike Search tool were collaborative projects. All o
 
 Deployed site hosted on GitHub pages at the following link:
 
-https://aavillanueva6.github.io/Portfolio-React/
+https://www.alejandro-a-villanueva.com
 
 ---
