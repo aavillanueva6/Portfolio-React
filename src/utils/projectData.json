@@ -6,7 +6,6 @@
       "src": "https://aav-myawsbucket.s3.us-west-2.amazonaws.com/portfolio/images/WETFBannerLightsCity.png",
       "alt": "WETF in lighted letters in front of a night time cityscape"
     },
-    "disclaimer": "Note: This app is hosted on a free onrender.com tier. Please allow a few moments to spin up.",
     "projectLinks": [
       {
         "linkText": "Deployed App",
