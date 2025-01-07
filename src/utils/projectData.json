@@ -126,11 +126,11 @@
     "disclaimer": "Note: This app is hosted on a free Heroku tier. Please allow a few moments to spin up.",
     "projectLinks": [
       {
-        "linkText": "Github Repo",
+        "linkText": "Deployed App",
         "linkURL": "https://aav-tech-blog.herokuapp.com/"
       },
       {
-        "linkText": "Deployed App",
+        "linkText": "Github Repo",
         "linkURL": "https://github.com/aavillanueva6/TechBlog"
       }
     ],
