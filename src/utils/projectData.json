@@ -21,6 +21,7 @@
         "text": "Front End",
         "icons": [
           "devicon-react-original codeIcon",
+          "devicon-typescript-plain codeIcon",
           "devicon-javascript-plain codeIcon",
           "devicon-bootstrap-plain codeIcon"
         ]

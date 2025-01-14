@@ -12,11 +12,9 @@ const secondaryProjectsData = projectData.slice(1);
 const ProjectSection = () => {
   return (
     <>
-      <div id="Projects" className="container">
-        <div className="row">
-          <h1 className="display-5 fw-bold fontScript-3 text-primary">
-            Projects:
-          </h1>
+      <div id='Projects' className='container'>
+        <div className='row'>
+          <h1 className='display-5 fw-bold fontSC text-primary'>Projects:</h1>
         </div>
         <MainProjCard project={leadProj} />
         {secondaryProjectsData.map((project, i) => {

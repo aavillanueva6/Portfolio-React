@@ -5,13 +5,13 @@ const contactData = require('../../utils/contactData.json');
 const ContactSection = () => {
   return (
     <>
-      <div id="ContactMe" className="container text-primary">
-        <div className="row">
-          <h1 className="display-5 fw-bold fontScript-3">Contact Me:</h1>
+      <div id='ContactMe' className='container text-primary'>
+        <div className='row'>
+          <h1 className='display-5 fw-bold fontSC text-primary'>Contact Me:</h1>
         </div>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-4 col-12 col-lg-3">
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-md-4 col-12 col-lg-3'>
               {contactData.contactMethods.map((method, i) => {
                 return (
                   <Fragment key={`contact-method-${i}`}>
