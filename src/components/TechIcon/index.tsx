@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TechIcon = ({ iconData }) => {
+const TechIcon: React.FC = ({ iconData }: { iconData: string }) => {
   return (
     <>
       <i
