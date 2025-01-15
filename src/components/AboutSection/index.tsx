@@ -1,8 +1,25 @@
 import React from 'react';
-const aboutData = require('../../utils/aboutData.json');
 
-const AboutSection = () => {
-  console.log(aboutData);
+interface ButtonType {
+  text: string;
+  logo: string;
+  link: string;
+}
+
+interface TechStackType {
+  text: string;
+  icons: string[];
+}
+
+interface AboutDataType {
+  text: string[];
+  buttons: ButtonType[];
+  techStack: TechStackType[];
+}
+
+const aboutData: AboutDataType = require('../../utils/aboutData.json');
+
+const AboutSection: React.FC = () => {
   return (
     <>
       <div id='AboutMe' className='container'>

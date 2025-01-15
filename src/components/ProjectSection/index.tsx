@@ -3,24 +3,45 @@ import { Fragment } from 'react';
 import MainProjCard from '../MainProjCard';
 import SecondaryProjCard from '../SecondaryProjCard';
 
-const projectData = require('../../utils/projectData.json');
+interface LinkDataType {
+  linkText: string;
+  linkURL: string;
+}
+
+interface ProjectDataType {
+  image: {
+    alt: string;
+    src: string;
+  };
+  name: string;
+  shortDescription: string;
+  projectLinks: Array<LinkDataType>;
+  techStack: Array<{
+    text: string;
+    icons: string[];
+  }>;
+  disclaimer?: string;
+}
+
+const projectData: ProjectDataType[] = require('../../utils/projectData.json');
 
 const leadProj = projectData[0];
 const secondaryProjectsData = projectData.slice(1);
-// console.log(secondaryProjectsData);
 
-const ProjectSection = () => {
+const ProjectSection: React.FC = () => {
   return (
     <>
       <div id='Projects' className='container'>
         <div className='row'>
           <h1 className='display-5 fw-bold fontSC text-primary'>Projects:</h1>
         </div>
+        {/*@ts-ignore*/}
         <MainProjCard project={leadProj} />
         {secondaryProjectsData.map((project, i) => {
           return project.name ? (
             <SecondaryProjCard
               key={`project-card-${i + 1}`}
+              //@ts-ignore
               project={project}
               projID={i + 1}
             />

@@ -1,8 +1,17 @@
 import React from 'react';
 import { Fragment } from 'react';
-const contactData = require('../../utils/contactData.json');
 
-const ContactSection = () => {
+interface ContactDataType {
+  contactMethods: Array<{
+    text: string;
+    link: string;
+    description: string;
+  }>;
+}
+
+const contactData: ContactDataType = require('../../utils/contactData.json');
+
+const ContactSection: React.FC = () => {
   return (
     <>
       <div id='ContactMe' className='container text-primary'>
