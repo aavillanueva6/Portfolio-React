@@ -5,7 +5,11 @@ interface LinkDataType {
   linkURL: string;
 }
 
-const LinkButton: React.FC = ({ linkData }: { linkData: LinkDataType }) => {
+interface LinkButtonProps {
+  linkData: LinkDataType;
+}
+
+const LinkButton: React.FC<LinkButtonProps> = ({ linkData }) => {
   return (
     <>
       <a

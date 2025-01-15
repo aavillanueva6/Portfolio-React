@@ -1,6 +1,14 @@
 import React from 'react';
 
-const TechIcon: React.FC = ({ iconData }: { iconData: string }) => {
+interface TechIconProps {
+  iconData: string;
+}
+
+const TechIcon: React.FC<TechIconProps> = ({
+  iconData,
+}: {
+  iconData: string;
+}) => {
   return (
     <>
       <i

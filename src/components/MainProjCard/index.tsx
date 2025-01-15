@@ -22,7 +22,11 @@ interface ProjectDataType {
   disclaimer?: string;
 }
 
-const MainProjCard: React.FC = ({ project }: { project: ProjectDataType }) => {
+interface MainProjCardProps {
+  project: ProjectDataType;
+}
+
+const MainProjCard: React.FC<MainProjCardProps> = ({ project }) => {
   return (
     <>
       <div className='row'>
@@ -40,7 +44,6 @@ const MainProjCard: React.FC = ({ project }: { project: ProjectDataType }) => {
             <p className='card-text fst-italic fs-6'>{project.disclaimer}</p>
             {project.projectLinks.map((linkData: LinkDataType, i) => {
               return (
-                // @ts-ignore
                 <LinkButton key={`mainProjLink-${i}`} linkData={linkData} />
               );
             })}
@@ -52,7 +55,6 @@ const MainProjCard: React.FC = ({ project }: { project: ProjectDataType }) => {
                 return (
                   <TechStackSubCard
                     key={`mainProjTS-${i}`}
-                    //@ts-ignore
                     techStackData={techStackData}
                   />
                 );
