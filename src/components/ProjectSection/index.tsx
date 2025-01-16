@@ -35,13 +35,11 @@ const ProjectSection: React.FC = () => {
         <div className='row'>
           <h1 className='display-5 fw-bold fontSC text-primary'>Projects:</h1>
         </div>
-        {/*@ts-ignore*/}
         <MainProjCard project={leadProj} />
         {secondaryProjectsData.map((project, i) => {
           return project.name ? (
             <SecondaryProjCard
               key={`project-card-${i + 1}`}
-              //@ts-ignore
               project={project}
               projID={i + 1}
             />

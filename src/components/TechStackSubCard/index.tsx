@@ -6,10 +6,12 @@ interface TechStackDataType {
   icons: string[];
 }
 
-const TechStackSubCard: React.FC = ({
-  techStackData,
-}: {
+interface TechStackSubCardProps {
   techStackData: TechStackDataType;
+}
+
+const TechStackSubCard: React.FC<TechStackSubCardProps> = ({
+  techStackData,
 }) => {
   return (
     <>
@@ -25,7 +27,6 @@ const TechStackSubCard: React.FC = ({
                 return (
                   <TechIcon
                     key={`${techStackData.text}-icon-${i}`}
-                    //@ts-ignore
                     iconData={iconData}
                   />
                 );

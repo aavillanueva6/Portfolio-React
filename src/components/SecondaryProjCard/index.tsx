@@ -23,12 +23,14 @@ interface ProjectType {
   disclaimer?: string;
 }
 
-const SecondaryProjCard: React.FC = ({
-  project,
-  projID,
-}: {
+interface SecondaryProjCardProps {
   project: ProjectType;
   projID: number;
+}
+
+const SecondaryProjCard: React.FC<SecondaryProjCardProps> = ({
+  project,
+  projID,
 }) => {
   return (
     <>
@@ -54,7 +56,6 @@ const SecondaryProjCard: React.FC = ({
                   return (
                     <LinkButton
                       key={`proj-${projID}-link-${i}`}
-                      //@ts-ignore
                       linkData={linkData}
                     />
                   );
@@ -67,7 +68,6 @@ const SecondaryProjCard: React.FC = ({
                       return techStackData.icons[0] ? (
                         <TechStackSubCard
                           key={`proj-${projID}-TS-${i}`}
-                          //@ts-ignore
                           techStackData={techStackData}
                         />
                       ) : (
