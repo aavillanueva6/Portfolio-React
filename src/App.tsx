@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from './components/Header';
 import HeadlineSection from './components/HeadlineSection';
 import ProjectSection from './components/ProjectSection';
@@ -5,7 +6,7 @@ import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className='App'>
       <Header />
@@ -17,6 +18,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
